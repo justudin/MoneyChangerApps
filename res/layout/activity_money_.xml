@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lbl_judul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9pt"
+        android:gravity="center_horizontal"
+        android:text="Konversi Uang"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/lbl_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_judul"
+        android:layout_marginLeft="5pt"
+        android:gravity="left"
+        android:text="Input"
+        android:width="45pt" />
+
+    <TextView
+        android:id="@+id/lbl_rupiah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_judul"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_toRightOf="@+id/lbl_dolar"
+        android:gravity="left"
+        android:text="Output" />
+
+    <EditText
+        android:id="@+id/txt_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_dolar"
+        android:layout_marginLeft="5pt"
+        android:gravity="left"
+        android:inputType="number"
+        android:singleLine="true"
+        android:width="45pt" />
+
+    <EditText
+        android:id="@+id/txt_rupiah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_rupiah"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_toRightOf="@+id/txt_dolar"
+        android:gravity="left"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <RadioGroup
+        android:id="@+id/pilihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_dolar"
+        android:layout_marginLeft="5pt" >
+
+        <RadioButton
+            android:id="@+id/pil_do_piah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ubah"
+            android:text="@string/dolar_rupiah" />
+
+        <RadioButton
+            android:id="@+id/pil_ru_dol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ubah"
+            android:text="@string/rupiah_dolar" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihan"
+        android:layout_centerHorizontal="true"
+        android:text="Hitung"
+        android:width="150dp" />
+
+</RelativeLayout>

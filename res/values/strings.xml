@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">MoneyChanger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_money_">Money Changer</string>
+	<string name="dolar_rupiah">Dolar ke Rupiah</string>
+	<string name="rupiah_dolar">Rupiah ke Dolar</string>
+</resources>
