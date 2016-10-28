@@ -8,6 +8,10 @@ How to use?
 -----------
 Just open with Eclicpse and Compile it!:
 
+Screenshot
+-----------
+![screenshoot_moneychangerapps.jpg](screenshoot_moneychangerapps.jpg)
+
 License
 --------
 Free and Open Source, Feel free to use and modified it.
@@ -15,4 +19,4 @@ Free and Open Source, Feel free to use and modified it.
 Contact
 -------
 You can contact me via:
-Email : just.udin@yahoo.com:
+[justudin](http://justudin.com)
